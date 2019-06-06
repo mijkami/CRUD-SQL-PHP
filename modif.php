@@ -2,12 +2,6 @@
 //recuperation des données de l'url
 require('./login.php');
 
-function redirect($url)
-{
-      header('Location: ' . $url);
-      exit();
-}
-
 $id=$_GET['id'];
 $bdd = new PDO('mysql:host=localhost;dbname=Sorty', $user, $pass);
 

@@ -22,7 +22,7 @@ $stmt->bindParam(':phone', $phone);
 for ($i = 0; $i < 5; $i++){
     $id = $faker->unique()->randomDigit;
     $email = $faker->unique()->email;
-    $name = $faker->name;
+    $name = $faker->lastName;
     $firstname = $faker->firstName;
     $phone = $faker->phoneNumber;
     $stmt->execute();

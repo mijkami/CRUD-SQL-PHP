@@ -13,8 +13,8 @@ foreach($ensemble_des_donnees as $un_enregistrement) {
     echo 'nom: ' . $un_enregistrement['name'] . '<br>';
     echo 'prénom : ' . $un_enregistrement['firstname'].'<br>';
     echo 'téléphone : ' . $un_enregistrement['phone'].'<br>
-    <a href="modif.php?id=' . $un_enregistrement['id'] . '">modif</a>-/-
-    <a href="supp.php?id=' . $un_enregistrement['id'] . '">supp</a><br /><br>';
+    <a href="modif.php?id=' . $un_enregistrement['id'] . '"><button>Modifier</button></a>&nbsp;&nbsp;
+    <a href="supp.php?id=' . $un_enregistrement['id'] . '"><button>Supprimer</button></a><br><br>';
 }
 
 

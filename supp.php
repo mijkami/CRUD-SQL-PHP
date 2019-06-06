@@ -9,5 +9,10 @@ echo '  // id = ' . $id;
 
 $bdd->exec('DELETE FROM Users where  id =' . $id . ';');
 
-
+function redirect($url)
+{
+    header('Location: ' . $url);
+    exit();
+}
+redirect('./');
 ?>

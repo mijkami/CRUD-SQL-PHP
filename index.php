@@ -1,5 +1,7 @@
 <?php
 require('./login.php');
+echo '<a href="./seed.php"><button>"Seed" nouveaux utilisateurs</button></a><br><br>';
+
 
 $bdd = new PDO ('mysql:host=localhost;dbname=Sorty', $user, $pass);
 // $ensemble_des_donnees = $bdd->query('SELECT * FROM `Users` ORDER BY id ASC LIMIT 1;');

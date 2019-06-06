@@ -3,7 +3,7 @@ require('./login.php');
 echo '<a href="./seed.php"><button>"Seed" nouveaux utilisateurs</button></a><br><br>';
 
 
-$bdd = new PDO ('mysql:host=localhost;dbname=Sorty', $user, $pass);
+$bdd = new PDO ('mysql:host=localhost;dbname=Sorty;charset=UTF8', $user, $pass);
 // $ensemble_des_donnees = $bdd->query('SELECT * FROM `Users` ORDER BY id ASC LIMIT 1;');
 $ensemble_des_donnees = $bdd->query( 'SELECT * FROM `Users` ORDER BY id;');
 foreach($ensemble_des_donnees as $un_enregistrement) {

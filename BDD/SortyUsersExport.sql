@@ -47,6 +47,16 @@ INSERT INTO `Users` (`id`, `email`, `name`, `firstname`, `phone`) VALUES
 (2, 'sorty2@yopmail.com', 'Crafty', 'Chantal', '023040506070'),
 (3, 'sorty3@yopmail.com', 'Duston', 'Denis', '033040506070');
 
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `Users`
+--
+ALTER TABLE `Users`
+  ADD PRIMARY KEY (`id`);
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

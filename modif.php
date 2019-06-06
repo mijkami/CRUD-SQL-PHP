@@ -16,8 +16,7 @@ echo '<INPUT NAME="firstname" value="'.$donnees['firstname'].'" > prénom<br>';
 echo '<INPUT NAME="phone" value="'.$donnees['phone'].'" > téléphone<br>';
 echo '<INPUT NAME="email" value="' . $donnees['email'] . '" > email<br>';
 echo '<INPUT  type=hidden NAME="id" value='.$donnees['id'].'>';
-echo '<br><INPUT type=submit value=Valider><INPUT type=reset value=Reset><a href="./"><button>Retour index</button>
-</a>
+echo '<br><INPUT type=submit value=Valider><INPUT type=reset value=Reset><a href="./"><button>Retour index</button></a>
       </form>';
 
 // envoi vers update.php pour update

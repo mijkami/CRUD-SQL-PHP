@@ -43,9 +43,9 @@ CREATE TABLE IF NOT EXISTS `Users` (
 
 INSERT INTO `Users` (`id`, `email`, `name`, `firstname`, `phone`) VALUES
 (0, 'sorty0@yopmail.com', 'Austrich', 'Antoine', '003040506070'),
-(1, 'sorty2@yopmail.com', 'Bolty', 'Bernard', '013040506070'),
+(1, 'sorty1@yopmail.com', 'Bolty', 'Bernard', '013040506070'),
 (2, 'sorty2@yopmail.com', 'Crafty', 'Chantal', '023040506070'),
-(3, 'sort31@yopmail.com', 'Duston', 'Denis', '033040506070');
+(3, 'sorty3@yopmail.com', 'Duston', 'Denis', '033040506070');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
